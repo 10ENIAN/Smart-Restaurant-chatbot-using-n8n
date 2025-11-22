@@ -34,17 +34,6 @@ Handles returning users within the same session
 
 Orders, Inventory, and FAQ stored in Google Sheets
 
-
-📂 Project Structure
-Component	Role
-When chat message received (Trigger)	Starts workflow on new message
-Google Gemini Chat Model	AI reasoning and chat replies
-AI Agent (LangChain)	Applies rules, tools, and system instructions
-Simple Memory	Chat memory buffer
-Get Inventory	Reads stock from Google Sheets
-Get FAQ	Reads FAQ answers from Google Sheets
-Post Orders	Writes confirmed/rejected orders to Google Sheets
-
 🔧 Credential Requirements
 Required Credentials
 
